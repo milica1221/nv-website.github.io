@@ -2,7 +2,7 @@
 layout: featured
 title: PaaS
 image: /assets/img/services/novavector-analytics-1.jpg
-icon: {{site.baseurl}}/assets/img/icons/paas.png
+icon: /assets/img/icons/paas.png
 description: Lorem ipsum dolor sit amet, cons lorem
 ---
 
