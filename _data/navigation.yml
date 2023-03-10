@@ -1,0 +1,60 @@
+#Please use the main menu items under the "text"
+
+- text: Home
+  url: /
+  # submenu:
+  # - text: Home 2
+  #   url: /pages/index-2
+  # - text: Home 3
+  #   url: /pages/index-3
+# - text: Blog
+#   url: /pages/blog
+- text: Products
+  url: /pages/products
+- text: Services
+  url: /pages/services
+  submenu:
+  - text: Support
+    url: /pages/support
+  - text: Services
+    url: /pages/services
+  - text: Training
+    url: /pages/training
+  - text: PaaS
+    url: /pages/paas
+# - text: About
+#   url: /pages/about
+- text: Solutions
+  url: /pages/solutions
+  submenu:
+  - text: Smart Agriculture
+    url: /pages/smart-agriculture
+  - text: Smart Industry
+    url: /pages/smart-industry
+  - text: Smart Providers
+    url: /pages/smart-providers
+  - text: Smart Retail
+    url: /pages/smart-retail
+  - text: Smart Building
+    url: /pages/smart-building
+  - text: Education
+    url: /pages/education
+# - text: Pages
+#   url: /
+  # submenu:
+  # - text: Services
+  #   url: /pages/services
+  # - text: Service Details
+  #   url: /pages/services-details
+  # - text: Portfolio
+  #   url: /pages/portfolio
+  # - text: Portfolio Details
+  #   url: /pages/portfolio-details
+  # - text: About Us
+  #   url: /pages/about
+  # - text: Contact
+  #   url: /pages/contact
+  # - text: 404
+  #   url: /pages/404
+- text: Contact
+  url: /pages/contact

@@ -1,0 +1,35 @@
+<section class="service-area grey-bg pb-70 pt-100 mb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title service-title">
+                    <h2>Our Services</h2>
+                </div>
+                <div class="services-paragraph">
+                    <p>Nova Vector is cutting EDGE technology provider for the  business solutions of the future. We
+                      integrate your existing systems with advanced technologies and help you move your business
+                       forward. Nova Vector offers ready to use solutions in domains of: IoT, Blockchain, Advanced Analytics.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for service in site.services %}
+            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+                <div class="features-wrap">
+                    {% if service.icon %}
+                    <div class="features-icon">
+                        <img src="{{service.icon}}" alt="{{service.title}}">
+                    </div>
+                    {% endif %}
+                    <div class="section-title service-title">
+                    <h4>{{service.title}}</h4>
+                    </div>
+                    <p>{{service.description}}</p>
+                    <a class="service-btn" href="{{service.url}}">Read More</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
