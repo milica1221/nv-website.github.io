@@ -2,7 +2,7 @@
 layout: featured
 title: Training
 image: /assets/img/services/novavector-analytics-1.jpg
-icon: /assets/img/icons/training.png
+icon: {{site.baseurl}}/assets/img/icons/training.png
 description: Lorem ipsum dolor sit amet, cons lorem
 ---
 

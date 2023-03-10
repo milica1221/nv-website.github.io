@@ -2,7 +2,7 @@
 layout: featured
 title: Support
 image: /assets/img/services/novavector-analytics-1.jpg
-icon: /assets/img/icons/support.png
+icon: {{site.baseurl}}/assets/img/icons/support.png
 description: Lorem ipsum dolor sit amet, cons lorem
 ---
 
